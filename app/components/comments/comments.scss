@@ -1,0 +1,54 @@
+.comments {
+  .comments_title {
+    margin-top: 4rem;
+    font-size: 1.5rem;
+  }
+  .write {
+    display: flex;
+    margin-top: 1rem;
+    .comment_input {
+      width: 100%;
+      border-bottom: 0.1rem solid gray;
+      margin-right: 1rem;
+      outline: none;
+    }
+    .post_comment {
+      background-color: teal;
+      padding: 0.5rem 1rem;
+      border-radius: 0.25rem;
+      color: white;
+    }
+  }
+  .all_comments {
+    .comment {
+      .user {
+        margin-top: 3rem;
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+        .user_info {
+          .username {
+            font-size: 1.5rem;
+          }
+          .date {
+            color: gray;
+          }
+        }
+        .comment_img_container {
+          height: 5rem;
+          width: 5rem;
+
+          position: relative;
+          img {
+            border-radius: 50%;
+            object-fit: cover;
+          }
+        }
+      }
+      .text {
+        margin-top: 1rem;
+        margin-left: 1rem;
+      }
+    }
+  }
+}
