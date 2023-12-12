@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function AuthLinks() {
-  const status = "notLogged";
+  const status = "logged";
   return (
     <div>
       {status === "logged" ? (

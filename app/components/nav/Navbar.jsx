@@ -13,12 +13,13 @@ export default function Nav() {
         <Image src="/youtube.png" width={24} height={24} />
       </div>
       <div className="logo">
-        <h1>Next Blog</h1>
+        <Link href="/">
+          <h1>Next Blog</h1>
+        </Link>
       </div>
       <div className="links">
         <ThemeToogle />
         <Link href="#">Homepage</Link>
-        <Link href="#">Contact</Link>
         <Link href="#">About</Link>
         <AuthLinks />
       </div>
